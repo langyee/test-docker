@@ -21,7 +21,7 @@ services:
            depends_on:
                 - db
            volumes:
-                - ./project:/src
+                - ./project/hello:/src
            expose:
                 - "8000"
            restart: always
